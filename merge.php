@@ -58,7 +58,7 @@ if (isset($_POST["submit"]))
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-                <a class="nav-link" href="split.php">
+                <a class="nav-link" href="index.html">
                     <i class="fa fa-home"></i>
                     Split
                 </a>

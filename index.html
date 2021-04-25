@@ -1,15 +1,14 @@
 <?php
 
-if (isset($_POST["submit"]))
-{
-    $file_name = $_FILES["video"]["tmp_name"];
-    $cut_from = $_POST["cut_from"];
-    $duration = $_POST["duration"];
+    if (isset($_POST["submit"])){
+        $file_name = $_FILES["video"]["tmp_name"];
+        $cut_from = $_POST["cut_from"];
+        $duration = $_POST["duration"];
 
-//    $command =     "ffmpeg -i" . $file_name . "-ss" . $cut_from .  "-t" . $duration . "-async 1 cut.mp4";
-    $command = "ffmpeg -i " . $file_name . " -vcodec copy -ss " . $cut_from . " -t " . $duration . " output.mp4";
-    system($command);
-}
+        $command =     "ffmpeg -i" . $file_name . "-ss" . $cut_from .  "-t" . $duration . "-async 1 cut.mp4";
+        $command = "ffmpeg -i " . $file_name . " -vcodec copy -ss " . $cut_from . " -t " . $duration . " output.mp4";
+        system($command);
+    }
 
 ?>
 
@@ -53,7 +52,7 @@ if (isset($_POST["submit"]))
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="split.php">
+                <a class="nav-link" href="index.html">
                     <i class="fa fa-home"></i>
                     Split
                     <span class="sr-only">(current)</span>
