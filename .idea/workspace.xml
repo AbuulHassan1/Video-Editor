@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d9c2cfb-7a25-40b6-b217-2adb5123917a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/merge.php" beforeDir="false" afterPath="$PROJECT_DIR$/merge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.php" beforeDir="false" afterPath="$PROJECT_DIR$/merge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
       <workItem from="1618936163969" duration="7939000" />
       <workItem from="1619018775320" duration="5800000" />
       <workItem from="1619027850276" duration="5771000" />
-      <workItem from="1619330374174" duration="106000" />
+      <workItem from="1619330374174" duration="1354000" />
     </task>
     <servers />
   </component>
